@@ -14,12 +14,7 @@ public class MaiorDeTresIfElse {
         int num3 = scanner.nextInt();
 
         int maior = Math.max(num1, Math.max(num2, num3));
-        if (num2 > maior) {
-            maior = num2;
-        }
-        if (num3 > maior) {
-            maior = num3;
-        }
+
         System.out.println("O maior número é: "+maior);
 
         scanner.close();
