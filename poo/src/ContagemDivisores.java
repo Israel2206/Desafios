@@ -7,12 +7,14 @@ public class ContagemDivisores {
 
         System.out.print("Digite um numero: ");
         int numero = scanner.nextInt();
-
-        for(int contador = 1; contador <=numero; contador++){
+        int contardivisores = 0;
+        for(int contador = 1; contador <=numero; contador++ ){
             if (numero %contador==0) {
                 System.out.println(contador);
+                contardivisores++;
             }
         }
+        System.out.println("O numero "+numero+" tem o total de "+contardivisores+" divisores");
         scanner.close();
     }
 }
