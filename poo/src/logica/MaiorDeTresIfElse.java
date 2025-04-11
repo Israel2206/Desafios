@@ -1,29 +1,23 @@
+package logica;
 //Leia três números e mostre o maior entre eles.
 import java.util.Scanner;
-import java.util.ArrayList;
-import java.util.Collections;
 
-public class MaiorDeTres {
+public class MaiorDeTresIfElse {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        ArrayList<Integer> lista_numeros = new ArrayList<>();
-
         System.out.print("Digite o primeiro numero: ");
         int num1 = scanner.nextInt();
-        lista_numeros.add(num1);
 
         System.out.print("Digite o segundo numero: ");
         int num2 = scanner.nextInt();
-        lista_numeros.add(num2);
 
         System.out.print("Digite o terceiro numero: ");
         int num3 = scanner.nextInt();
-        lista_numeros.add(num3);
 
-        Collections.sort(lista_numeros);
-        
-        System.out.println("O maior número é: "+lista_numeros.get(2));
-        
+        int maior = Math.max(num1, Math.max(num2, num3));
+
+        System.out.println("O maior número é: "+maior);
+
         scanner.close();
     }
 }

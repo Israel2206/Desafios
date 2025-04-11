@@ -1,3 +1,4 @@
+package logica;
 //Mostre os N primeiros termos da sequência de Fibonacci.
 import java.util.Scanner;
 

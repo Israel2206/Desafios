@@ -1,3 +1,4 @@
+package logica;
 // Tabuada.java
 // Leia um número inteiro e mostre a tabuada dele de 1 a 10.
 import java.util.Scanner;

@@ -1,3 +1,4 @@
+package logica;
 // Conte quantos divisores um número inteiro possui.
 import java.util.Scanner;
 

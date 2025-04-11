@@ -1,3 +1,4 @@
+package logica;
 // ParOuImpar.java
 // Leia um número inteiro e diga se ele é par ou ímpar.
 import java.util.Scanner;

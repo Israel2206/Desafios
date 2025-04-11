@@ -1,3 +1,4 @@
+package logica;
 // Conte quantos números pares existem entre 1 e 100.
 
 public class ContarPares {

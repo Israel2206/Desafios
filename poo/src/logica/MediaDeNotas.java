@@ -1,3 +1,4 @@
+package logica;
 // MediaDeNotas.java
 // Leia N notas e calcule a média delas.
 import java.util.Scanner;
