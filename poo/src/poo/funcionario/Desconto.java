@@ -1,5 +1,6 @@
-package poo.produto;
+package poo.funcionario;
 import java.util.Scanner;
+
 
 public class Desconto {
     public static void main(String[] args) {

@@ -1,4 +1,5 @@
-package poo.funcionario;
+package poo.produto;
+
 import java.util.Scanner;
 
 public class Main {

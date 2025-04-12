@@ -1,4 +1,5 @@
-package poo.produto;
+package poo.funcionario;
+
 public class Produto {
     private int preco;
    

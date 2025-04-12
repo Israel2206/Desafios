@@ -1,4 +1,5 @@
-package poo.funcionario;
+package poo.produto;
+
 public class Funcionario {
     private double salario;
 
