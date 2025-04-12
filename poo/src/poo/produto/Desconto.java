@@ -1,3 +1,4 @@
+package poo.produto;
 import java.util.Scanner;
 
 public class Desconto {

@@ -1,3 +1,4 @@
+package poo.produto;
 public class Produto {
     private int preco;
    
