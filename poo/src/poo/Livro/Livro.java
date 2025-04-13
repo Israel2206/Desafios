@@ -1,4 +1,5 @@
-package poo.Livro;
+package poo.livro;
+
 public class Livro {
     String titulo;
     String autor;
