@@ -1,4 +1,4 @@
-package cachorro;
+package poo.cachorro;
 public class Main {
     public static void main(String[] args) {
         

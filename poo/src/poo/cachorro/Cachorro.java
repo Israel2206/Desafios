@@ -1,4 +1,4 @@
-package cachorro;
+package poo.cachorro;
 public class Cachorro {
     String nome;
     int idade;
