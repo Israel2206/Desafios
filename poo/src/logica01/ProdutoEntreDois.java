@@ -1,4 +1,4 @@
-package logica;
+package logica01;
 // ProdutoEntreDois.java
 // Leia dois números e calcule o produto entre eles.
 import java.util.Scanner;

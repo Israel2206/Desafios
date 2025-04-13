@@ -1,4 +1,4 @@
-package logica;
+package logica01;
 // Converta uma temperatura de Celsius para Fahrenheit
 import java.util.Scanner;
 

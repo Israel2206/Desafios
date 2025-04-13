@@ -1,4 +1,4 @@
-package logica;
+package logica01;
 // SomaAteZero.java
 // Leia números até que o usuário digite 0. Exiba a soma total.
 import java.util.Scanner;

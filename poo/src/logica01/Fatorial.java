@@ -1,4 +1,4 @@
-package logica;
+package logica01;
 import java.util.Scanner;
 
 public class Fatorial {

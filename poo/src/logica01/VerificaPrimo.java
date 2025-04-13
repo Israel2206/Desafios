@@ -1,4 +1,4 @@
-package logica;
+package logica01;
 // Verifique se um número é primo (sem laço)
 import java.util.Scanner;
 
