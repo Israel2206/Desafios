@@ -1,4 +1,4 @@
-package instaciamento.carro.cachorro;
+package instaciamento.cachorro;
 public class Main {
     public static void main(String[] args) {
         Cachorro cachorro1 = new Cachorro("Hulk", "vira lata", 3);

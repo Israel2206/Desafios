@@ -1,4 +1,4 @@
-package instaciamento.carro.cachorro;
+package instaciamento.cachorro;
 public class Cachorro {
     String nome;
     String raca;
