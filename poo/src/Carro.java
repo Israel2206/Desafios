@@ -11,4 +11,10 @@ public class Carro  {
             this.velocidade = velocidade;
         }
     }
+    public void acelerar(int incremento){
+        velocidade += incremento;
+    }
+    public void frear(int reducao){
+        velocidade -= reducao;
+    }
 }

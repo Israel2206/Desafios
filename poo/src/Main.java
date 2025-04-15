@@ -4,5 +4,12 @@ public class Main {
 
         carro.setVelocidade(80);
         System.out.println("Velocidade: "+carro.getVelocidade()+" km/h");
+
+        carro.acelerar(20);
+        System.out.println("Velocidade: "+carro.getVelocidade()+" km/h");
+
+        carro.frear(40);
+        System.out.println("Velocidade: "+carro.getVelocidade()+" km/h");
+
     }
 }
