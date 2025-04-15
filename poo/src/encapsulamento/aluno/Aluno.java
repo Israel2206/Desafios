@@ -1,4 +1,4 @@
-package encapsulamento.ealuno;
+package encapsulamento.aluno;
 public class Aluno {
     private String nome;
     private double nota;
