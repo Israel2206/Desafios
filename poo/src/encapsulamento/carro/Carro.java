@@ -13,9 +13,21 @@ public class Carro  {
         }
     }
     public void acelerar(int incremento){
-        velocidade += incremento;
+        if (incremento < 0) {
+            System.out.println("Incremento inválido.");
+        } else {
+            velocidade += incremento;
+        }
     }
+    
     public void frear(int reducao){
-        velocidade -= reducao;
+        if (reducao < 0) {
+            System.out.println("Redução inválida.");
+        } else if (velocidade - reducao < 0) {
+            velocidade = 0;
+        } else {
+            velocidade -= reducao;
+        }
     }
+    
 }
