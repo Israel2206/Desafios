@@ -1,3 +1,4 @@
+package encapsulamento.contabancaria;
 public class ContaBancaria {
     private String nomeDoTitular; 
     private  double saldo;
