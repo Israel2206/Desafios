@@ -12,7 +12,7 @@ public class bit {
         for(int i = 1; i<=n;i++){
             String B = scanner.nextLine();
             if (B.equals("X++") || B.equals("++X")) {
-                X++;;
+                X++;
             }else if (B.equals("X--") || B.equals("--X")) {
                 X--;
             }
