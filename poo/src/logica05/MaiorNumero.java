@@ -1,4 +1,4 @@
-package logica.logica01;
+package logica05;
 import java.util.Scanner;
 
 public class MaiorNumero {
