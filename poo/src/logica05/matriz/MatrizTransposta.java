@@ -1,4 +1,4 @@
-package logica05;
+package logica05.matriz;
 import java.util.Scanner;
 
 public class MatrizTransposta {

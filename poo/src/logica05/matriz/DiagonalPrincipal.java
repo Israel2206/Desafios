@@ -1,28 +1,26 @@
-package logica05;
+package logica05.matriz;
 import java.util.Scanner;
 
-public class MatrizMaior {
+public class DiagonalPrincipal {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         int[][] matriz = new int[3][3];
 
-        int numero_maior = 0;
+        int soma = 0;
 
         for(int l = 0; l < matriz.length; l++){
             for(int c = 0; c < matriz[l].length ; c++){
-                System.out.print("Digite numeros para a matriz: ");
+                System.out.printf("Digite o número da posição [%d][%d]: ", l, c);
                 matriz[l][c] = scanner.nextInt();
             }
         }
         for(int l = 0; l < matriz.length; l++){
             for(int c = 0; c < matriz[l].length ; c++){
-                if (matriz[l][c] > 10) {
-                    numero_maior++;
+                if (l == c) {
+                    System.out.printf("[%d]",matriz[l][c]);
                 }
             }
         }
-        System.out.println("Quantidade de números maior que 10: "+numero_maior);
-        scanner.close();
     }
 }
