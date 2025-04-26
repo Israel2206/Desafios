@@ -4,29 +4,25 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        int[][] matriz = new int[2][3];
+        int[][] matriz = new int[3][3];
+
+        int par = 0;
+        int impar = 0;
 
         for(int l =0; l < matriz.length; l++){
             for(int c = 0; c < matriz[l].length; c++){
                 matriz[l][c]=scanner.nextInt();
+                if (matriz[l][c] %2==0) {
+                    par++;
+                }else{
+                    impar++;
+                }
+            }
+        }
+        System.out.println("Existem "+par+" numeros pares!");
+        System.out.println("Existem "+impar+" numeros impares!");
 
-            }
-        }
-        System.out.println("Original: ");
-        for(int l =0; l < matriz.length; l++){
-            for(int c = 0; c < matriz[l].length; c++){
-                System.out.printf("[%d]", matriz[l][c]);
-            }
-            System.out.printf("%n");
-        }
 
-        System.out.println("\nTransposta: ");
-        for(int c = 0; c < matriz[0].length; c++){
-            for(int l = 0; l < matriz.length; l++){
-                System.out.printf("[%d]", matriz[l][c]);
-            }
-            System.out.printf("%n");
-        }
         scanner.close();
     }
 }
