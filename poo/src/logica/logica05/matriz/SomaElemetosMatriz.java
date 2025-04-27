@@ -1,4 +1,4 @@
-package logica05.matriz;
+package logica.logica05.matriz;
 public class SomaElemetosMatriz {
     public static void main(String[] args) {
         int[][] numeros = {

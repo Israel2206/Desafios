@@ -1,4 +1,4 @@
-package logica05;
+package logica.logica05;
 import java.util.Scanner;
 
 public class Senha {

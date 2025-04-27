@@ -1,4 +1,4 @@
-package logica05.matriz;
+package logica.logica05.matriz;
 public class Matriz {
     public static void main(String[] args) {
         int [][] numeros = {{1,2,3},{40,50,60,},{700,800,900}};

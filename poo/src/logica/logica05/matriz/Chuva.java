@@ -1,4 +1,4 @@
-package logica05.matriz;
+package logica.logica05.matriz;
 import java.util.Scanner;
 
 public class Chuva {
