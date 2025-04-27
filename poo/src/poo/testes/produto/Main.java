@@ -1,4 +1,4 @@
-package poo.produto;
+package poo.testes.produto;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package poo.pessoa;
+package poo.testes.pessoa;
 import java.util.Scanner;
 
 public class Main {

@@ -1,4 +1,4 @@
-package poo.funcionario;
+package poo.testes.funcionario;
 
 public class Produto {
     private int preco;

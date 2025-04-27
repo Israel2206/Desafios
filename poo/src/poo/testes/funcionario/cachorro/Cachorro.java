@@ -1,4 +1,4 @@
-package poo.cachorro;
+package poo.testes.funcionario.cachorro;
 public class Cachorro {
     String nome;
     int idade;

@@ -1,4 +1,4 @@
-package poo.funcionario;
+package poo.testes.funcionario;
 import java.util.Scanner;
 
 

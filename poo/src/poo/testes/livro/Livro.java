@@ -1,4 +1,4 @@
-package poo.livro;
+package poo.testes.livro;
 
 public class Livro {
     String titulo;
