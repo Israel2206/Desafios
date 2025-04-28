@@ -7,7 +7,6 @@ public class MaiorNumero {
 
         int[][] matriz = new int[3][3];
 
-        int soma = 0;
 
         int maior = 0;
         int linha = 0;
@@ -30,5 +29,6 @@ public class MaiorNumero {
         }
         System.out.printf("[%d]%n",maior);
         System.out.println("linha: "+linha+" \ncoluna: "+coluna);
+        scanner.close();
     }
 }

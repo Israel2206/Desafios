@@ -16,5 +16,6 @@ public class SobrinhodoMeio {
         } else {
             System.out.println("luisinho");
         }
+        scanner.close();
     }
 }

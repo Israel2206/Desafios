@@ -18,5 +18,6 @@ public class MatrizString {
             }
             System.out.printf("%n");
         }
+        scanner.close();
     }
 }

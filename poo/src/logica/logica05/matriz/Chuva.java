@@ -42,5 +42,6 @@ public class Chuva {
             }
             System.out.printf("%n");
         }
+        scanner.close();
     }
 }

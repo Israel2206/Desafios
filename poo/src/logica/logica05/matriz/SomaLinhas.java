@@ -17,5 +17,6 @@ public class SomaLinhas {
             System.out.printf("A soma é: %d %n",soma);
             soma=0;
         }
+        scanner.close();
     }
 }
