@@ -25,5 +25,6 @@ public class Gasolina {
         System.out.println("Alcool: "+a);
         System.out.println("Gasolina: "+g);
         System.out.println("Diesel: "+d);
+        scanner.close();
     }
 }
