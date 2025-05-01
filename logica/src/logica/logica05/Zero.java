@@ -1,3 +1,5 @@
+package logica.logica05;
+
 import java.util.Scanner;
 import java.util.ArrayList;
 
